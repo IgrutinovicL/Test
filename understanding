@@ -1,0 +1,6 @@
+1. get userId from request
+2. get user data with the mock function: fetch_user_mock_data
+3. Use the fake user's data to get the forecast with fetch_weather_forecast 
+4. Use openAI to generate a custom forecast based on the users data
+5. Save the forecast to the mongoDB collection
+6. Return the forecast to the user
